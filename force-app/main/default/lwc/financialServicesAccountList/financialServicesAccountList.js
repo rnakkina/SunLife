@@ -3,7 +3,7 @@ import searchAccount from '@salesforce/apex/FsAccounts.searchAccount'
 import allFsAccounts from '@salesforce/apex/FsAccounts.allFsAccounts'
 import { refreshApex } from '@salesforce/apex'
 import { ShowToastEvent } from 'lightning/platformShowToastEvent'
-import { updateRecord  } from 'lightning/uiRecordApi';
+import { updateRecord  } from 'lightning/uiRecordApi'
 const COLS=[
     {label:'Account Name', fieldName:'Name', editable:true, sortable: "true"},
     {label:'Phone', fieldName:'Phone',  type:"phone",   sortable: "false" , editable:true},
